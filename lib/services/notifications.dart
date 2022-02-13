@@ -32,7 +32,6 @@ class Notifications {
     var androidPlatformChannelSpecifics = new AndroidNotificationDetails(
         id.index.toString(),
         notificationInfo[id.index][0],
-        notificationInfo[id.index][0],
         importance: Importance.max,
         priority: Priority.high);
     var iOSPlatformChannelSpecifics = new IOSNotificationDetails();
